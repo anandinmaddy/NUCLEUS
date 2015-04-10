@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+	<color name="black">#000</color>
+	<color name="White">#FFFFFF</color>
+	<color name="Silver">#C0C0C0</color>
+	<color name="DarkOrange">#FF8C00</color>
+	<color name="DarkBlue">#00008B</color>
+	<color name="SkyBlue">#18c1c9</color>
+	<color name="ksh_dark_blue">#143D55</color>
+	<color name="ksh_light_blue">#A7D6d5</color>
+	<color name="Yellow">#FFFF00</color>
+	<color name="Red">#FF0000</color>
+	<color name="CrimsonRed">#da0a40</color>
+	<color name="CrimsonDarkRed">#a60834</color>
+	<color name="blue">#00f</color>
+	<color name="red">#EC1C24</color>
+	<color name="Gray">#808080</color>
+	<color name="light_Gray">#EFE7E7</color>
+	<color name="green">#38952B</color>
+	<color name="LightGreen">#006f62</color>
+	<color name="yellow">#fcf70e</color>
+	<color name="pink">#f10</color>
+	<color name="tab_active">#00f</color>
+	<color name="tab_inactive">#000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="cyanblue">#2f4f4f</color>
+	<color name="Aquamarine">#7fffd4</color>
+	<color name="tclcolor">#548B54</color>
+	<color name="kshheadercolor">#FFF6ED</color>
+	<color name="ksh_login">#069</color>
+	<color name="ksh_weight_row">#F1F1F1</color>
+	<color name = "light_red">#F8740F</color>   
+	<color name = "dark_red">#F8500F</color> 
+	<color name = "ultimate_red">#F8340F</color>    
+	
+    <color name="dark_gray">#2d2d2d</color>
+    <color name="light_gray">#3d3d3d</color>
+     <color name="holo_blue_dark">#33B5E5</color>
+    
+</resources>

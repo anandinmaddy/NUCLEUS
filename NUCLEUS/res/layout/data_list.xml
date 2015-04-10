@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+      
+        
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    
+
+             
+    <TextView
+        android:id="@+id/time"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/jobid"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+    <ImageView
+    android:id="@+id/phon_call"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="5dp" />
+        
+    <ImageView
+        android:id="@+id/map_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        />
+    <ImageView
+        android:id="@+id/pending"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" 
+        />
+    <ImageView
+        android:id="@+id/hold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" 
+       />
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" 
+        />
+    <ImageView
+        android:id="@+id/command"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" 
+        />
+    
+    </LinearLayout>
+
+    </LinearLayout>
+    
+     
+
+

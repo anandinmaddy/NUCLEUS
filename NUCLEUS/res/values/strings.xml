@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EContractor</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">loading</string>
+    <string name="existing_user">existing user</string>
+    <string name="new_user">new user</string>
+    <string name="new_pin">Enter Password</string>
+    <string name="confirm_pin">Re-Enter Passord</string>
+     <string name="btn_submit">submit</string>
+      <string name="btn_previous">PRE</string>
+         <string name="btn_next">NEXT</string>
+          <string name="btn_cancel_menu">CANCEL</string>
+          <string name="btn_back_to_main_menu">MAINMENU</string>
+          <string name="apt">APT</string>
+          <string name="jobid">JOBID</string>
+          <string name="hold">Hold</string>
+          <string name="progress">Progress</string>
+           <string name="sort_text">Sort Jobs by route/time</string>
+
+</resources>

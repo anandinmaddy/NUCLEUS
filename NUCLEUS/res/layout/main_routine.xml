@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_launcher">
+    
+    <RelativeLayout
+        android:id="@+id/headRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/ic_launcher">
+              
+      		<TextView
+      		    android:textColor="@color/blue"
+      		    android:id="@+id/txtMachineComponent"
+      		    android:layout_width="fill_parent"
+      		    android:layout_height="fill_parent"
+      		    android:textSize="20sp"
+      		    android:gravity="center_vertical|center_horizontal" />
+		   
+		</LinearLayout>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:id="@+id/topRelativeLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:layout_below="@id/headRelativeLayout">
+        
+        <Button 
+            android:text="@string/btn_previous" 
+            android:id="@+id/btnPrevious"
+            android:layout_alignParentLeft="true" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_dark">
+        </Button>
+        
+        <TextView
+            android:id="@+id/txtPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        
+        <Button 
+            android:text="@string/btn_next" 
+            android:id="@+id/btnNext"
+            android:layout_alignParentRight="true" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@android:color/holo_blue_dark">
+        </Button>
+        
+	</RelativeLayout>
+    
+    <LinearLayout
+	    android:id="@+id/middleLinearLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginTop="100dp"
+	    android:layout_marginBottom="95dp">
+        
+    	<ListView
+    	    android:id="@+id/lvTaskList"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:divider="#b5b5b5"
+      		android:dividerHeight="1dp">
+    	      	   
+    	</ListView>
+    	
+    </LinearLayout>
+    
+	<RelativeLayout
+	    android:id="@+id/bottomRelativeLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@color/white">
+	    
+	    <LinearLayout
+	        android:id="@+id/bottomLinearLayout"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_marginTop="5sp"
+            android:orientation="horizontal">
+              
+      		<Button 
+	            android:text="@string/btn_submit" 
+	            android:id="@+id/btnSubmit"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/white"
+	            android:background="@android:color/holo_blue_dark"
+	            android:gravity="center"
+	            android:layout_weight="1"
+	            />
+
+      		<Button
+      		    android:id="@+id/btnCancel"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:gravity="center"
+      		    android:layout_marginLeft="5dip"
+      		    android:background="@android:color/holo_blue_dark"
+      		    android:text="@string/btn_cancel_menu"
+      		    android:textColor="@color/white" 
+      		    android:layout_weight="1"/>
+		   
+		</LinearLayout>
+		 <LinearLayout
+	        android:id="@+id/bottomLinearLayout1"
+	        android:layout_below="@+id/bottomLinearLayout"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal">
+	    <Button
+   		    android:id="@+id/btnBackToMainMenu"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:gravity="center"
+   		    android:background="@android:color/holo_blue_dark"
+   		    android:text="@string/btn_back_to_main_menu"
+   		    android:textColor="@color/white" />
+	    </LinearLayout>
+	    
+	</RelativeLayout>
+    
+</RelativeLayout>
